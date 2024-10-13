@@ -1,0 +1,259 @@
+/* Style the body */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+.body {
+    margin: 0;
+}
+
+/* Style the fonts */
+.Google_font {
+    font-family: Google Sans,Google Sans Text,Roboto,Arial,sans-serif;
+    color: #202124; 
+    letter-spacing: -.5px; 
+    font-weight: 500; 
+    line-height: 50px; 
+    font-size: 40px;
+}
+
+
+/* Style the main */
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    text-align: start;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+/* Style the galleria */
+.galleria {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria2 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria3 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria4 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria5 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria6 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria7 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria8 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria9 {
+    height: 630px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+
+.galleria-theme-classic {
+    background-color: white;
+}
+
+/* Style the tab */
+.tabss {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 10%;
+    height: 630px;
+    border-radius: 20px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tabss button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    font-family: Google Sans,Google Sans Text,Roboto,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+/* Change background color of buttons on hover */
+.tabss button:hover {
+    background-color: #ddd;
+    border-radius: 20px;
+}
+
+/* Create an active/current "tab button" class */
+.tabss button.active {
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+/* Style the tab content */
+.tabcontentss {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 60%;
+    border-left: none;
+    height: 630px;
+    border-radius: 20px;
+}
+
+
+
+/* Footer */
+.footer {
+  margin-bottom: 2.5rem;
+  margin-left: 5rem;
+}
+
+.ftitle {
+  margin: 0;
+}
+
+.fdescription {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.border {
+  width: 115px;
+  height: 2px;
+  transition: 0.3s;
+}
+
+.Rivi {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Made {
+  margin: 0;
+}
+
+.Arivi {
+  margin-left: 5px;
+  text-decoration: underline;
+  color: #202124;
+}
+
+.Media {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  right: 70px;
+}
+
+.Telegram {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+ 
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.preloader__image {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}
+
+
+
+.button {
+  --annotation: "CTA";
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  appearance: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: rgb(26, 115, 232);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    margin-top: 13.5rem;
+  }
+}
